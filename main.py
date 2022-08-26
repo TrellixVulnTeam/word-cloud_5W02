@@ -5,7 +5,7 @@ By: Jamiu Shaibu
 import PyPDF2
 import re
 
-# TO Try
+
 def scan_data(filename):
     book = open(filename, 'rb')
     pdfReader = PyPDF2.PdfFileReader(book)
