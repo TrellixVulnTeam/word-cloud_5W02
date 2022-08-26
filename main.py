@@ -32,14 +32,6 @@ def scan_data(filename):
     # Total number of pages in book
     print("Total number of pages in book is:", page_Num)
 
-    # Get the longest word in context
-    # longest = max(clean_data, key=len)
-    # print("The longest word in book is: ", longest)
-    #
-    # # Get the shortest word in context
-    # shortest = min(clean_data, key=len)
-    # print("The shortest word in book is: ", shortest)
-    # 
     print("The total number of words in book is: " + str(len(clean_data)))
     print('\033[94m''\033[1m'"=====", "%%%%%%%%%%=WITH 99.999999% ACCURACY=%%%%%%%%%%", "=====", '\033[0m')
     while True:
